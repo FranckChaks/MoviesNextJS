@@ -1,0 +1,41 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "start-server-and-test dev 3000 cypress:open",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "backstop-test": "start-server-and-test dev 3000 backstop:test",
+    "backstop:test": "backstop test",
+    "backstop-reference": "start-server-and-test dev 3000 backstop:reference",
+    "backstop:reference": "backstop reference"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "framer-motion": "^3.2.2-rc.1",
+    "msw": "^0.26.0",
+    "next": "^10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "remark-parse": "^9.0.0",
+    "sass": "^1.32.5"
+  },
+  "devDependencies": {
+    "cypress": "^6.3.0",
+    "gray-matter": "^4.0.2",
+    "js-yaml": "^4.0.0",
+    "marked": "^1.2.7",
+    "raw-loader": "^4.0.2",
+    "remark-react": "^8.0.0",
+    "start-server-and-test": "^1.11.7",
+    "unified": "^9.2.0"
+  }
+}

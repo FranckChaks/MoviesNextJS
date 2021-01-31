@@ -1,0 +1,92 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Next_Movies_Homepage_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20210131-211515\\backstop_default_Next_Movies_Homepage_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Next_Movies_Homepage_0_document_0_phone.png",
+        "label": "Next Movies Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -922
+          },
+          "misMatchPercentage": "13.39",
+          "analysisTime": 37
+        },
+        "diffImage": "..\\bitmaps_test\\20210131-211515\\failed_diff_backstop_default_Next_Movies_Homepage_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Next_Movies_Homepage_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20210131-211515\\backstop_default_Next_Movies_Homepage_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Next_Movies_Homepage_0_document_1_tablet.png",
+        "label": "Next Movies Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -276
+          },
+          "misMatchPercentage": "5.37",
+          "analysisTime": 50
+        },
+        "diffImage": "..\\bitmaps_test\\20210131-211515\\failed_diff_backstop_default_Next_Movies_Homepage_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Next_Movies_movie_list_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20210131-211515\\backstop_default_Next_Movies_movie_list_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Next_Movies_movie_list_0_document_0_phone.png",
+        "label": "Next Movies movie list",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/posts",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "error": "Reference file not found C:\\Users\\franck\\source\\movies_nextjs\\backstop_data\\bitmaps_reference\\backstop_default_Next_Movies_movie_list_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Next_Movies_movie_list_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20210131-211515\\backstop_default_Next_Movies_movie_list_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Next_Movies_movie_list_0_document_1_tablet.png",
+        "label": "Next Movies movie list",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:3000/posts",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "error": "Reference file not found C:\\Users\\franck\\source\\movies_nextjs\\backstop_data\\bitmaps_reference\\backstop_default_Next_Movies_movie_list_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+}

@@ -1,0 +1,40 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Next_Movies_Homepage_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20210131-155506\\backstop_default_Next_Movies_Homepage_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Next_Movies_Homepage_0_document_0_phone.png",
+        "label": "Next Movies Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/pages/index.js",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "error": "Reference file not found C:\\Users\\franck\\source\\movies_nextjs\\backstop_data\\bitmaps_reference\\backstop_default_Next_Movies_Homepage_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Next_Movies_Homepage_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20210131-155506\\backstop_default_Next_Movies_Homepage_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Next_Movies_Homepage_0_document_1_tablet.png",
+        "label": "Next Movies Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "/pages/index.js",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "error": "Reference file not found C:\\Users\\franck\\source\\movies_nextjs\\backstop_data\\bitmaps_reference\\backstop_default_Next_Movies_Homepage_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+}
